@@ -10,7 +10,7 @@ import UIKit
 public class MMTooltipView: UIView {
     public var attributes: TooltipViewAttributes!
     
-    var label: UILabel = {
+    public var label: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = .zero
